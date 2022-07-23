@@ -1,0 +1,202 @@
+
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.f-developer{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.my-name{
+    color: rgb(217, 215, 223);
+    font-size: 40px;
+}
+
+.world{
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+
+.half-width img{
+    width: 80%;
+    border-radius: 40%;
+    margin-top: 10%;
+}
+
+.half-width p{
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.cv-btn{
+    background-color: orange;
+    padding: 10px;
+    width: 110px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 4px 4px blue;
+}
+
+.banner-bg{
+    background-image: url("./images/banner-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.dream-big{
+    background-color: rgba(88, 40, 40, 0.445);
+}
+
+
+.dream-header{
+    margin-bottom: 15px;
+}
+
+.resume-btn{
+    background-color: orange;
+    padding: 10px;
+    width: 220px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 4px 4px blue;
+}
+
+.dream-box{
+    background-color: rgb(59, 206, 206);
+    padding-left: 50px;
+}
+
+.dream-pic{
+    background-color: aliceblue;
+}
+
+
+
+.exp-area{
+    width: 35%;
+    margin: 20px 30px; 
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 5px 5px 55px  rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+.exp-area:first-child{
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+}
+.exp-area:nth-child(2){
+
+    border-left: 10px solid blue;
+    border-bottom: 10px solid blue;
+}
+
+.exp-area h2{
+    font-size: 30px; 
+}
+.exp-area h3{
+    color: orange;  
+}
+
+.exp-area p{
+    line-height: 25px;
+}
+
+.out-area{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+footer p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: larger;
+}
+
+
+/* Media Queries */
+
+/* Mobile View */
+
+@media screen and (max-width: 720px) {
+    .flexible-container{
+        width: 100%;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .half-width{
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+        padding: 0px auto;
+    }
+    .half-width img{
+        width: 70%;
+        margin: 0px auto;
+    }
+    .half-width h1, h2, h3{
+        font-size: 30px;
+    }
+    .my-name{
+        font-size: 25px;
+        color: black;
+    }
+    .world{
+        font-size: 25px;
+    }
+
+    .exp-area{
+        width: 80%;
+    }
+
+    .dream-box{
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .dream-big{
+        background-color: white
+    }
+    .header-info{
+        width: 90%;
+        padding: 0px auto;
+
+    }
+    .banner-bg{
+        background-image: none;
+    }
+}
